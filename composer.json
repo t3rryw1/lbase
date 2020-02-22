@@ -1,0 +1,27 @@
+{
+  "name": "t3rry/lbase",
+  "description": "Base support, such as logging / http head processing for other libs",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Laura\\Lib\\Base\\": "src/"
+    },
+    "files": [
+      "./functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Laura\\Lib\\Base\\": "test/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "authors": [
+    {
+      "name": "Terry Wang",
+      "email": "terry.wang@cozystay.com"
+    }
+  ]
+}
